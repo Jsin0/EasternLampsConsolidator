@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-<name>Eastern Lamps Consolidation</name>
+<name>Simple Eastern Lamp</name>
 <author>Jsin0</author>
 <url>https://github.com/Jsin0/EasternLampsConsolidator</url>
 <supportedVersions><li>1.3</li></supportedVersions>
-<packageId>Jsin.EasternLampsConsolidation</packageId>
+<packageId>Jsin.SimpleEasternLamp</packageId>
 <description>Consolidates Xiuminh's 18 Eastern lamps into one using Vanilla Textures Expanded - Variation</description>
 <modDependencies>
         <li>
