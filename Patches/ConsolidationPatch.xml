@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+	  <operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_one"]/comps</xpath>
+				<value>
+					<li Class="VanillaFurnitureExpanded.CompProperties_RandomBuildingGraphic">
+						<randomGraphics>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_1</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_2</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_3</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_4</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_5</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_6</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_7</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_8</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_9</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_10</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_11</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_12</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_13</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_14</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_15</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_16</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_17</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_18</li>
+							<li>Things/Buildings/Lamps/Ishidoro/XIU_Ishidora_19</li>
+						</randomGraphics>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_one"]/label</xpath>
+				<value>
+					<label>Ishidōrō</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_one"]/designationCategory</xpath>
+				<value>
+					<designationCategory>Furniture</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_two"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_three"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_four"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_five"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_six"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_seven"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_eight"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_nine"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_ten"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_eleven"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_twelve"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_thirteen"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_fourteen"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_fifteen"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_sixteen"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_seventeen"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[defName="XIU_Ishidoro_eighteen"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/DesignationCategoryDef[defName="Lamps"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
